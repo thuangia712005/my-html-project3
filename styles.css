@@ -1,0 +1,68 @@
+/* Skip link - hỗ trợ truy cập */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Liên kết tệp CSS đã đúng cú pháp */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+/* Chỉ ảnh trong nav */
+nav img {
+  width: 10%;
+}
+
+/* Ghi chú quy tắc li cũ */
+/*
+li {
+  list-style-type: square;
+}
+*/
+
+/* Grid layout 2 cột */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* Chỉ ảnh trong grid */
+.grid img {
+  width: 100%;
+}
+
+/* Flex layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Ví dụ cơ bản cho các phần tử flex/grid */
+.grid div, .flex div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* Màu sắc có độ tương phản tốt */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+}
